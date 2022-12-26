@@ -38,7 +38,7 @@ const MobileSidebar = () => {
       </div>
       <div className="footer flex flex-col pt-[0px] pb-[32px] px-[16px]">
         <div className="flex flex-row items-center py-[8px] px-[8px] my-2 rounded-md bg-[#FFFFFF] w-[247px] h-[40px]">
-          <Image height={24} width={24} src="/../public/buoy.png" />
+          <Image height={24} width={24} src="/../public/buoy.png" alt="bouy" />
           <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
             Support
           </div>
