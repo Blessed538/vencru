@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div className="w-[280px] hidden md:block md:border-2 md:pt-[32px] p-[0px] bg-[#FFFFFF]">
       <div className="p-[0px]   pr-[20px]  pl-[20px] mb-5">
-        <Image src="/../public/Logo.png" width={143} height={32} />
+        <Image src="/../public/Logo.png" width={143} height={32} alt="logo" />
       </div>
       <div className="px-[24px] py-[0px] mx-5 flex items-center h-[44px] border-2 rounded-lg">
         <Image
