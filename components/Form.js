@@ -21,7 +21,7 @@ const Form = () => {
                   height={32}
                   alt="visa"
                   width={46}
-                  src="/../public/visa.png"
+                  src="/../public/static/visa.png"
                   className="border-2 border-[#F2F4F7] rounded-md bg-[#FFFFFF]"
                 />
               </div>
@@ -47,7 +47,7 @@ const Form = () => {
                 height={16}
                 width={16}
                 alt="checkbox"
-                src="/../public/checkbox.png"
+                src="/../public/static/checkbox.png"
                 className="border-2 border-[#F2F4F7] rounded-md bg-[#FFFFFF]"
               />
             </div>
@@ -62,7 +62,7 @@ const Form = () => {
                   height={32}
                   width={46}
                   alt="mastercard"
-                  src="/../public/mastercard.png"
+                  src="/../public/static/mastercard.png"
                   className="border-2 border-[#F2F4F7] rounded-md bg-[#FFFFFF]"
                 />
               </div>
@@ -89,7 +89,7 @@ const Form = () => {
                 height={16}
                 alt="checkbox"
                 width={16}
-                src="/../public/checkboxlight.png"
+                src="/../public/static/checkboxlight.png"
                 className="border-2 border-[#F2F4F7] rounded-md bg-[#FFFFFF]"
               />
             </div>
@@ -103,7 +103,7 @@ const Form = () => {
                 width={20}
                 height={20}
                 alt="plus"
-                src="/../public/plus.png"
+                src="/../public/static/plus.png"
               />
             </button>
           </span>

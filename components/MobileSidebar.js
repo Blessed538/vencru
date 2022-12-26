@@ -6,11 +6,16 @@ const MobileSidebar = () => {
   return (
     <div className="mobile">
       <div className="p-[0px] pt-[25px] pr-[20px] pl-[20px] mb-5">
-        <Image src="/../public/Logo.png" alt="logo" width={143} height={32} />
+        <Image
+          src="/../public/static/Logo.png"
+          alt="logo"
+          width={143}
+          height={32}
+        />
       </div>
       <div className="px-[24px] py-[0px] mx-5 flex items-center h-[44px] border-2 rounded-lg">
         <Image
-          src="/../public/search.png"
+          src="/../public/static/search.png"
           alt="search"
           width={20}
           height={20}
@@ -38,7 +43,12 @@ const MobileSidebar = () => {
       </div>
       <div className="footer flex flex-col pt-[0px] pb-[32px] px-[16px]">
         <div className="flex flex-row items-center py-[8px] px-[8px] my-2 rounded-md bg-[#FFFFFF] w-[247px] h-[40px]">
-          <Image height={24} width={24} src="/../public/buoy.png" alt="bouy" />
+          <Image
+            height={24}
+            width={24}
+            src="/../public/static/buoy.png"
+            alt="bouy"
+          />
           <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
             Support
           </div>
@@ -48,7 +58,7 @@ const MobileSidebar = () => {
             height={24}
             width={24}
             alt="settings"
-            src="/../public/settings.png"
+            src="/../public/static/settings.png"
           />
           <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
             Settings
@@ -68,7 +78,7 @@ const MobileSidebar = () => {
               height={136}
               width={215}
               alt="image-wrap"
-              src="/../public/image-wrap.png"
+              src="/../public/static/image-wrap.png"
             />
           </div>
         </div>
@@ -89,7 +99,7 @@ const MobileSidebar = () => {
             height={40}
             alt="avatar"
             width={40}
-            src="/../public/Avatar.png"
+            src="/../public/static/Avatar.png"
             className="mr-3"
           />
           <div className="flex flex-col">
@@ -103,7 +113,7 @@ const MobileSidebar = () => {
         </div>
         <div>
           <Image
-            src="/../public/Button.png"
+            src="/../public/static/Button.png"
             alt="button"
             width={36}
             height={36}

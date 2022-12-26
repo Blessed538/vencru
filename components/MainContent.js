@@ -7,7 +7,6 @@ import Form from "./Form";
 import MobileSidebar from "./MobileSidebar";
 const MainContent = () => {
   const [sidebarStatus, setSidebarStatus] = useState(false);
-  console.log("sidebarstatus", sidebarStatus);
 
   const openSidebar = () => {
     setSidebarStatus((prev) => !prev);
@@ -24,10 +23,20 @@ const MainContent = () => {
       {/* mobile view */}
       <div className="bg-[#FFFFFF] sm:flex px-[16px] items-center mb-3 py-[12px] md:hidden flex flex-row justify-between">
         <div>
-          <Image src="/../public/Logo.png" alt="logo" width={143} height={32} />
+          <Image
+            src="/../public/static/Logo.png"
+            alt="logo"
+            width={143}
+            height={32}
+          />
         </div>
         <div className="" onClick={() => openSidebar()}>
-          <Image src="/../public/nav.png" width={40} height={40} alt="nav" />
+          <Image
+            src="/../public/static/nav.png"
+            width={40}
+            height={40}
+            alt="nav"
+          />
         </div>
       </div>
       <div className="py-[0px] px-[16px] md:px-[32px]">
@@ -88,7 +97,7 @@ const MainContent = () => {
                         height={20}
                         width={20}
                         alt="mail"
-                        src="/../public/mail.png"
+                        src="/../public/static/mail.png"
                       />
                     </span>
                     <span className="font-[400] text-[#101828] text-[14px] leading-[20px]">
