@@ -24,7 +24,10 @@ const MobileSidebar = () => {
       <div className="px-[16px] my-5 ">
         {Seed.map((item, index) => {
           return (
-            <div className="flex flex-row items-center my-2 py-[8px] px-[8px] bg-[#FFFFFF] rounded-md w-[247px] h-[40px]">
+            <div
+              className="flex flex-row items-center my-2 py-[8px] px-[8px] bg-[#FFFFFF] rounded-md w-[247px] h-[40px] "
+              key={index}
+            >
               <Image height={24} width={24} alt="icon" src={item.icon} />
               <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
                 {item.title}
