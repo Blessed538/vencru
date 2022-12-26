@@ -24,7 +24,7 @@ const MainContent = () => {
       <div className="bg-[#FFFFFF] sm:flex px-[16px] items-center mb-3 py-[12px] md:hidden flex flex-row justify-between">
         <div>
           <Image
-            src="/../public/static/Logo.png"
+            src="/../public/static/images/Logo.png"
             alt="logo"
             width={143}
             height={32}
@@ -32,7 +32,7 @@ const MainContent = () => {
         </div>
         <div className="" onClick={() => openSidebar()}>
           <Image
-            src="/../public/static/nav.png"
+            src="/../public/static/images/nav.png"
             width={40}
             height={40}
             alt="nav"
@@ -97,7 +97,7 @@ const MainContent = () => {
                         height={20}
                         width={20}
                         alt="mail"
-                        src="/../public/static/mail.png"
+                        src="/../public/static/images/mail.png"
                       />
                     </span>
                     <span className="font-[400] text-[#101828] text-[14px] leading-[20px]">
