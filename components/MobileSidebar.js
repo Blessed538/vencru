@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Seed from "./seed";
+import { Seed } from "./seed";
 import Divider from "./Divider";
 const MobileSidebar = () => {
   return (

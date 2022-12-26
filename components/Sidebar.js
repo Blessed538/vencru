@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Seed from "./seed";
+import { Seed } from "./seed";
 
 const Sidebar = () => {
   return (
@@ -9,7 +9,12 @@ const Sidebar = () => {
         <Image src="/../public/Logo.png" width={143} height={32} />
       </div>
       <div className="px-[24px] py-[0px] mx-5 flex items-center h-[44px] border-2 rounded-lg">
-        <Image src="/../public/search.png" width={20} height={20} />
+        <Image
+          src="/../public/search.png"
+          width={20}
+          height={20}
+          className="mr-2"
+        />
         <input
           type="search"
           placeholder="Search"

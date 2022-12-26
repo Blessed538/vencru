@@ -1,4 +1,4 @@
-const Seed = [
+export const Seed = [
   { icon: "/../public/home.png", title: "Home" },
   { icon: "/../public/dashbd.png", title: "Dashboard" },
   { icon: "/../public/project.png", title: "Projects" },
@@ -6,4 +6,5 @@ const Seed = [
   { icon: "/../public/flag.png", title: "Reporting" },
   { icon: "/../public/users.png", title: "Users" },
 ];
-export default Seed;
+
+export const TableData = [];
