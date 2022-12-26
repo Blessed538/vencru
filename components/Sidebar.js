@@ -79,7 +79,7 @@ const Sidebar = () => {
             Dimiss
           </div>
           <div className="text-[#6941C6] leading-[20px] text-[14px] my-2 not-italic font-[500]">
-            What's new
+            What is new
           </div>
         </div>
       </div>
