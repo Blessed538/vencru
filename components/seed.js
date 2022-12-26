@@ -1,22 +1,22 @@
 export const Seed = [
-  { icon: "/../images/home.png", title: "Home", alt: "home" },
+  { icon: "/home.png", title: "Home", alt: "home" },
   {
-    icon: "/../images/dashbd.png",
+    icon: "/dashbd.png",
     title: "Dashboard",
     alt: "dashboard",
   },
   {
-    icon: "/../images/project.png",
+    icon: "/project.png",
     title: "Projects",
     alt: "projects",
   },
-  { icon: "/../images/tasks.png", title: "Tasks", alt: "tasks" },
+  { icon: "/tasks.png", title: "Tasks", alt: "tasks" },
   {
-    icon: "/../images/flag.png",
+    icon: "/flag.png",
     title: "Reporting",
     alt: "reporting",
   },
-  { icon: "/../images/users.png", title: "Users", alt: "users" },
+  { icon: "/users.png", title: "Users", alt: "users" },
 ];
 
 export const TableData = [];

@@ -6,11 +6,11 @@ const Sidebar = () => {
   return (
     <div className="w-[280px] hidden md:block md:border-2 md:pt-[32px] p-[0px] bg-[#FFFFFF]">
       <div className="p-[0px]   pr-[20px]  pl-[20px] mb-5">
-        <Image src="/../images/Logo.png" width={143} height={32} alt="logo" />
+        <Image src="/Logo.png" width={143} height={32} alt="logo" />
       </div>
       <div className="px-[24px] py-[0px] mx-5 flex items-center h-[44px] border-2 rounded-lg">
         <Image
-          src="/../images/search.png"
+          src="/search.png"
           width={20}
           height={20}
           alt="search"
@@ -40,18 +40,13 @@ const Sidebar = () => {
 
       <div className="footer flex flex-col pt-[0px] pb-[32px] px-[16px]">
         <div className="flex flex-row items-center py-[8px] px-[8px] rounded-md bg-[#FFFFFF] w-[247px] h-[40px]">
-          <Image height={24} width={24} src="/../images/buoy.png" alt="buoy" />
+          <Image height={24} width={24} src="/buoy.png" alt="buoy" />
           <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
             Support
           </div>
         </div>
         <div className="flex flex-row items-center py-[8px] px-[8px] rounded-md bg-[#FFFFFF] w-[247px] h-[40px]">
-          <Image
-            height={24}
-            width={24}
-            src="/../images/settings.png"
-            alt="setting"
-          />
+          <Image height={24} width={24} src="/settings.png" alt="setting" />
           <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
             Settings
           </div>
@@ -69,7 +64,7 @@ const Sidebar = () => {
             <Image
               height={136}
               width={215}
-              src="/../images/image-wrap.png"
+              src="/image-wrap.png"
               alt="image-wrap"
             />
           </div>
@@ -90,7 +85,7 @@ const Sidebar = () => {
             height={40}
             alt="avatar"
             width={40}
-            src="/../images/Avatar.png"
+            src="/Avatar.png"
             className="mr-3"
           />
           <div className="flex flex-col">
@@ -103,12 +98,7 @@ const Sidebar = () => {
           </div>
         </div>
         <div>
-          <Image
-            src="/../images/Button.png"
-            alt="button"
-            width={36}
-            height={36}
-          />
+          <Image src="/Button.png" alt="button" width={36} height={36} />
         </div>
       </div>
     </div>

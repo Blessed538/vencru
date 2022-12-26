@@ -21,7 +21,7 @@ const Form = () => {
                   height={32}
                   alt="visa"
                   width={46}
-                  src="/../images/visa.png"
+                  src="/visa.png"
                   className="border-2 border-[#F2F4F7] rounded-md bg-[#FFFFFF]"
                 />
               </div>
@@ -47,7 +47,7 @@ const Form = () => {
                 height={16}
                 width={16}
                 alt="checkbox"
-                src="/../images/checkbox.png"
+                src="/checkbox.png"
                 className="border-2 border-[#F2F4F7] rounded-md bg-[#FFFFFF]"
               />
             </div>
@@ -62,7 +62,7 @@ const Form = () => {
                   height={32}
                   width={46}
                   alt="mastercard"
-                  src="/../images/mastercard.png"
+                  src="/mastercard.png"
                   className="border-2 border-[#F2F4F7] rounded-md bg-[#FFFFFF]"
                 />
               </div>
@@ -89,7 +89,7 @@ const Form = () => {
                 height={16}
                 alt="checkbox"
                 width={16}
-                src="/../images/checkboxlight.png"
+                src="/checkboxlight.png"
                 className="border-2 border-[#F2F4F7] rounded-md bg-[#FFFFFF]"
               />
             </div>
@@ -99,12 +99,7 @@ const Form = () => {
         <div className="flex flex-row items-center">
           <span className="mr-2">
             <button className="">
-              <Image
-                width={20}
-                height={20}
-                alt="plus"
-                src="/../images/plus.png"
-              />
+              <Image width={20} height={20} alt="plus" src="/plus.png" />
             </button>
           </span>
           <span className="text-[#667085] text-[14px] leading-[20px] not-italic font-[500]">

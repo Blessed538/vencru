@@ -11,7 +11,7 @@ const Table = () => {
             width={20}
             height={20}
             alt="download"
-            src="/../images/downloadcloud.png"
+            src="/downloadcloud.png"
             className="mr-2"
           />
           <span className="not-italic text-[#344054] text-14px] leading-[20px] font-[500]">
@@ -45,7 +45,7 @@ const Table = () => {
                             width={10}
                             alt="download"
                             height={10}
-                            src="/../images/downward.png"
+                            src="/downward.png"
                             className="w-[10px] h-[10px]"
                           />
                         </span>
@@ -104,7 +104,7 @@ const Table = () => {
                           width={55}
                           alt="badge"
                           height={22}
-                          src="/../images/Badge.png"
+                          src="/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -112,7 +112,7 @@ const Table = () => {
                           alt="usersgroup"
                           width={124}
                           height={24}
-                          src="/../images/usersgroup.png"
+                          src="/usersgroup.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -121,7 +121,7 @@ const Table = () => {
                             width={40}
                             height={40}
                             alt="download"
-                            src="/../images/downloadcloud.png"
+                            src="/downloadcloud.png"
                           />
                         </button>
                       </td>
@@ -149,7 +149,7 @@ const Table = () => {
                           width={55}
                           height={22}
                           alt="badge"
-                          src="/../images/Badge.png"
+                          src="/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -157,7 +157,7 @@ const Table = () => {
                           width={124}
                           alt="usersbadge"
                           height={24}
-                          src="/../images/usersgroup.png"
+                          src="/usersgroup.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -166,7 +166,7 @@ const Table = () => {
                             width={40}
                             alt="download"
                             height={40}
-                            src="/../images/downloadcloud.png"
+                            src="/downloadcloud.png"
                           />
                         </button>
                       </td>
@@ -193,7 +193,7 @@ const Table = () => {
                         <Image
                           width={55}
                           height={22}
-                          src="/../images/Badge.png"
+                          src="/Badge.png"
                           alt="badge"
                         />
                       </td>
@@ -202,7 +202,7 @@ const Table = () => {
                           width={124}
                           height={24}
                           alt="users"
-                          src="/../images/usersgroup.png"
+                          src="/usersgroup.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -211,7 +211,7 @@ const Table = () => {
                             width={40}
                             alt="download"
                             height={40}
-                            src="/../images/downloadcloud.png"
+                            src="/downloadcloud.png"
                           />
                         </button>
                       </td>
@@ -239,7 +239,7 @@ const Table = () => {
                           width={55}
                           height={22}
                           alt="badge"
-                          src="/../images/Badge.png"
+                          src="/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -247,7 +247,7 @@ const Table = () => {
                           alt="users"
                           width={124}
                           height={24}
-                          src="/../images/usersgroup.png"
+                          src="/usersgroup.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -256,7 +256,7 @@ const Table = () => {
                             width={40}
                             height={40}
                             alt="download"
-                            src="/../images/downloadcloud.png"
+                            src="/downloadcloud.png"
                           />
                         </button>
                       </td>
@@ -284,7 +284,7 @@ const Table = () => {
                           width={55}
                           height={22}
                           alt="badge"
-                          src="/../images/Badge.png"
+                          src="/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -292,7 +292,7 @@ const Table = () => {
                           width={124}
                           height={24}
                           alt="users"
-                          src="/../images/usersgroup.png"
+                          src="/usersgroup.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -301,7 +301,7 @@ const Table = () => {
                             width={40}
                             alt="download"
                             height={40}
-                            src="/../images/downloadcloud.png"
+                            src="/downloadcloud.png"
                           />
                         </button>
                       </td>
@@ -329,7 +329,7 @@ const Table = () => {
                           width={55}
                           height={22}
                           alt="badge"
-                          src="/../images/Badge.png"
+                          src="/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -337,7 +337,7 @@ const Table = () => {
                           width={124}
                           alt="users"
                           height={24}
-                          src="/../images/usersgroup.png"
+                          src="/usersgroup.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -346,7 +346,7 @@ const Table = () => {
                             width={40}
                             height={40}
                             alt="download"
-                            src="/../images/downloadcloud.png"
+                            src="/downloadcloud.png"
                           />
                         </button>
                       </td>
@@ -374,7 +374,7 @@ const Table = () => {
                           width={55}
                           alt="badge"
                           height={22}
-                          src="/../images/Badge.png"
+                          src="/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -382,7 +382,7 @@ const Table = () => {
                           width={124}
                           alt="users"
                           height={24}
-                          src="/../images/usersgroup.png"
+                          src="/usersgroup.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -391,7 +391,7 @@ const Table = () => {
                             width={40}
                             alt="download"
                             height={40}
-                            src="/../images/downloadcloud.png"
+                            src="/downloadcloud.png"
                           />
                         </button>
                       </td>

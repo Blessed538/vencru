@@ -23,10 +23,10 @@ const MainContent = () => {
       {/* mobile view */}
       <div className="bg-[#FFFFFF] sm:flex px-[16px] items-center mb-3 py-[12px] md:hidden flex flex-row justify-between">
         <div>
-          <Image src="/../images/Logo.png" alt="logo" width={143} height={32} />
+          <Image src="/Logo.png" alt="logo" width={143} height={32} />
         </div>
         <div className="" onClick={() => openSidebar()}>
-          <Image src="/../images/nav.png" width={40} height={40} alt="nav" />
+          <Image src="/nav.png" width={40} height={40} alt="nav" />
         </div>
       </div>
       <div className="py-[0px] px-[16px] md:px-[32px]">
@@ -87,7 +87,7 @@ const MainContent = () => {
                         height={20}
                         width={20}
                         alt="mail"
-                        src="/../images/mail.png"
+                        src="/mail.png"
                       />
                     </span>
                     <span className="font-[400] text-[#101828] text-[14px] leading-[20px]">
