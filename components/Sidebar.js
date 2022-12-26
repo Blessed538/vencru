@@ -13,6 +13,7 @@ const Sidebar = () => {
           src="/../public/search.png"
           width={20}
           height={20}
+          alt="search"
           className="mr-2"
         />
         <input
@@ -36,13 +37,18 @@ const Sidebar = () => {
 
       <div className="footer flex flex-col pt-[0px] pb-[32px] px-[16px]">
         <div className="flex flex-row items-center py-[8px] px-[8px] rounded-md bg-[#FFFFFF] w-[247px] h-[40px]">
-          <Image height={24} width={24} src="/../public/buoy.png" />
+          <Image height={24} width={24} src="/../public/buoy.png" alt="buoy" />
           <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
             Support
           </div>
         </div>
         <div className="flex flex-row items-center py-[8px] px-[8px] rounded-md bg-[#FFFFFF] w-[247px] h-[40px]">
-          <Image height={24} width={24} src="/../public/settings.png" />
+          <Image
+            height={24}
+            width={24}
+            src="/../public/settings.png"
+            alt="setting"
+          />
           <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
             Settings
           </div>
@@ -74,6 +80,7 @@ const Sidebar = () => {
         <div className="flex flex-row">
           <Image
             height={40}
+            alt="avatar"
             width={40}
             src="/../public/Avatar.png"
             className="mr-3"
@@ -88,7 +95,12 @@ const Sidebar = () => {
           </div>
         </div>
         <div>
-          <Image src="/../public/Button.png" width={36} height={36} />
+          <Image
+            src="/../public/Button.png"
+            alt="button"
+            width={36}
+            height={36}
+          />
         </div>
       </div>
     </div>

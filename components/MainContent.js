@@ -27,7 +27,7 @@ const MainContent = () => {
           <Image src="/../public/Logo.png" width={143} height={32} />
         </div>
         <div className="" onClick={() => openSidebar()}>
-          <Image src="/../public/nav.png" width={40} height={40} />
+          <Image src="/../public/nav.png" width={40} height={40} alt="nav" />
         </div>
       </div>
       <div className="py-[0px] px-[16px] md:px-[32px]">
@@ -84,7 +84,12 @@ const MainContent = () => {
                 <div className="text-[#667085] md:max-w-[488px] w-[100%] mt-3 rounded-lg bg-[#FFFFFF] shadow-[0px_1px_2px_rgba(16, 24, 40, 0.05)] px-[14px] border-1 border-[#D0D5DD] border-solid py-[10px]">
                   <div className="flex -flex-row items-center">
                     <span className="mr-3">
-                      <Image height={20} width={20} src="/../public/mail.png" />
+                      <Image
+                        height={20}
+                        width={20}
+                        alt="mail"
+                        src="/../public/mail.png"
+                      />
                     </span>
                     <span className="font-[400] text-[#101828] text-[14px] leading-[20px]">
                       billing@untitledui.com

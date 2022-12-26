@@ -10,6 +10,7 @@ const Table = () => {
           <Image
             width={20}
             height={20}
+            alt="download"
             src="/../public/downloadcloud.png"
             className="mr-2"
           />
@@ -42,6 +43,7 @@ const Table = () => {
                         <span>
                           <Image
                             width={10}
+                            alt="download"
                             height={10}
                             src="/../public/downward.png"
                             className="w-[10px] h-[10px]"
@@ -100,12 +102,14 @@ const Table = () => {
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         <Image
                           width={55}
+                          alt="badge"
                           height={22}
                           src="/../public/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         <Image
+                          alt="usersgroup"
                           width={124}
                           height={24}
                           src="/../public/usersgroup.png"
@@ -115,6 +119,52 @@ const Table = () => {
                         <button>
                           <Image
                             width={40}
+                            height={40}
+                            alt="download"
+                            src="/../public/downloadcloud.png"
+                          />
+                        </button>
+                      </td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="px-6 py-4 items-center font-medium whitespace-nowrap text-gray-900">
+                        <span className="mr-3">
+                          <input
+                            type="checkbox"
+                            className="w-[20px] h-[20px] bg-[#FFFFFF] rounded border-2 border-[#D0D5DD]"
+                          />
+                        </span>
+                        <span className="text-[#101828] text-[14px] leading-[20px] font-[500] not-italic">
+                          Basic Plan - Dec 2022
+                        </span>
+                      </td>
+                      <td className="text-[14px] font-[400] not-italic px-6 py-4 whitespace-nowrap text-[#667085]">
+                        USD $10.00
+                      </td>
+                      <td className="text-[14px] font-[400] not-italic px-6 py-4 whitespace-nowrap text-[#667085]">
+                        Dec 1, 2022
+                      </td>
+                      <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <Image
+                          width={55}
+                          height={22}
+                          alt="badge"
+                          src="/../public/Badge.png"
+                        />
+                      </td>
+                      <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <Image
+                          width={124}
+                          alt="usersbadge"
+                          height={24}
+                          src="/../public/usersgroup.png"
+                        />
+                      </td>
+                      <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <button>
+                          <Image
+                            width={40}
+                            alt="download"
                             height={40}
                             src="/../public/downloadcloud.png"
                           />
@@ -144,12 +194,14 @@ const Table = () => {
                           width={55}
                           height={22}
                           src="/../public/Badge.png"
+                          alt="badge"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         <Image
                           width={124}
                           height={24}
+                          alt="users"
                           src="/../public/usersgroup.png"
                         />
                       </td>
@@ -157,48 +209,7 @@ const Table = () => {
                         <button>
                           <Image
                             width={40}
-                            height={40}
-                            src="/../public/downloadcloud.png"
-                          />
-                        </button>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-6 py-4 items-center font-medium whitespace-nowrap text-gray-900">
-                        <span className="mr-3">
-                          <input
-                            type="checkbox"
-                            className="w-[20px] h-[20px] bg-[#FFFFFF] rounded border-2 border-[#D0D5DD]"
-                          />
-                        </span>
-                        <span className="text-[#101828] text-[14px] leading-[20px] font-[500] not-italic">
-                          Basic Plan - Dec 2022
-                        </span>
-                      </td>
-                      <td className="text-[14px] font-[400] not-italic px-6 py-4 whitespace-nowrap text-[#667085]">
-                        USD $10.00
-                      </td>
-                      <td className="text-[14px] font-[400] not-italic px-6 py-4 whitespace-nowrap text-[#667085]">
-                        Dec 1, 2022
-                      </td>
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                        <Image
-                          width={55}
-                          height={22}
-                          src="/../public/Badge.png"
-                        />
-                      </td>
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                        <Image
-                          width={124}
-                          height={24}
-                          src="/../public/usersgroup.png"
-                        />
-                      </td>
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                        <button>
-                          <Image
-                            width={40}
+                            alt="download"
                             height={40}
                             src="/../public/downloadcloud.png"
                           />
@@ -227,11 +238,13 @@ const Table = () => {
                         <Image
                           width={55}
                           height={22}
+                          alt="badge"
                           src="/../public/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         <Image
+                          alt="users"
                           width={124}
                           height={24}
                           src="/../public/usersgroup.png"
@@ -242,6 +255,7 @@ const Table = () => {
                           <Image
                             width={40}
                             height={40}
+                            alt="download"
                             src="/../public/downloadcloud.png"
                           />
                         </button>
@@ -269,6 +283,7 @@ const Table = () => {
                         <Image
                           width={55}
                           height={22}
+                          alt="badge"
                           src="/../public/Badge.png"
                         />
                       </td>
@@ -276,6 +291,7 @@ const Table = () => {
                         <Image
                           width={124}
                           height={24}
+                          alt="users"
                           src="/../public/usersgroup.png"
                         />
                       </td>
@@ -283,6 +299,7 @@ const Table = () => {
                         <button>
                           <Image
                             width={40}
+                            alt="download"
                             height={40}
                             src="/../public/downloadcloud.png"
                           />
@@ -311,12 +328,14 @@ const Table = () => {
                         <Image
                           width={55}
                           height={22}
+                          alt="badge"
                           src="/../public/Badge.png"
                         />
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         <Image
                           width={124}
+                          alt="users"
                           height={24}
                           src="/../public/usersgroup.png"
                         />
@@ -326,6 +345,7 @@ const Table = () => {
                           <Image
                             width={40}
                             height={40}
+                            alt="download"
                             src="/../public/downloadcloud.png"
                           />
                         </button>
@@ -352,6 +372,7 @@ const Table = () => {
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         <Image
                           width={55}
+                          alt="badge"
                           height={22}
                           src="/../public/Badge.png"
                         />
@@ -359,6 +380,7 @@ const Table = () => {
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         <Image
                           width={124}
+                          alt="users"
                           height={24}
                           src="/../public/usersgroup.png"
                         />
@@ -367,6 +389,7 @@ const Table = () => {
                         <button>
                           <Image
                             width={40}
+                            alt="download"
                             height={40}
                             src="/../public/downloadcloud.png"
                           />

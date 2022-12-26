@@ -6,10 +6,15 @@ const MobileSidebar = () => {
   return (
     <div className="mobile">
       <div className="p-[0px] pt-[25px] pr-[20px] pl-[20px] mb-5">
-        <Image src="/../public/Logo.png" width={143} height={32} />
+        <Image src="/../public/Logo.png" alt="logo" width={143} height={32} />
       </div>
       <div className="px-[24px] py-[0px] mx-5 flex items-center h-[44px] border-2 rounded-lg">
-        <Image src="/../public/search.png" width={20} height={20} />
+        <Image
+          src="/../public/search.png"
+          alt="search"
+          width={20}
+          height={20}
+        />
         <input
           type="search"
           placeholder="Search"
@@ -20,7 +25,7 @@ const MobileSidebar = () => {
         {Seed.map((item, index) => {
           return (
             <div className="flex flex-row items-center my-2 py-[8px] px-[8px] bg-[#FFFFFF] rounded-md w-[247px] h-[40px]">
-              <Image height={24} width={24} src={item.icon} />
+              <Image height={24} width={24} alt="icon" src={item.icon} />
               <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
                 {item.title}
               </div>
@@ -36,7 +41,12 @@ const MobileSidebar = () => {
           </div>
         </div>
         <div className="flex flex-row items-center py-[8px] px-[8px] my-2 rounded-md bg-[#FFFFFF] w-[247px] h-[40px]">
-          <Image height={24} width={24} src="/../public/settings.png" />
+          <Image
+            height={24}
+            width={24}
+            alt="settings"
+            src="/../public/settings.png"
+          />
           <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
             Settings
           </div>
@@ -69,6 +79,7 @@ const MobileSidebar = () => {
         <div className="flex flex-row">
           <Image
             height={40}
+            alt="avatar"
             width={40}
             src="/../public/Avatar.png"
             className="mr-3"
@@ -83,7 +94,12 @@ const MobileSidebar = () => {
           </div>
         </div>
         <div>
-          <Image src="/../public/Button.png" width={36} height={36} />
+          <Image
+            src="/../public/Button.png"
+            alt="button"
+            width={36}
+            height={36}
+          />
         </div>
       </div>
     </div>
