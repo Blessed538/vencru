@@ -54,12 +54,7 @@ const MobileSidebar = () => {
             Check out the new dashboard view. Pages now load faster
           </div>
           <div className="rounded-md">
-            <Image
-              height={136}
-              width={215}
-              alt="image-wrap"
-              src="/imagewrap.png"
-            />
+            <Image height={136} width={215} alt="image-wrap" src="/smile.png" />
           </div>
         </div>
         <div className="action my-3 flex flex-row items-center w-[149px] h-[20px]">

@@ -61,12 +61,7 @@ const Sidebar = () => {
             Check out the new dashboard view. Pages now load faster
           </div>
           <div className="rounded-md">
-            <Image
-              height={136}
-              width={215}
-              src="/imagewrap.png"
-              alt="image-wrap"
-            />
+            <Image height={136} width={215} src="/smile.png" alt="image-wrap" />
           </div>
         </div>
         <div className="action my-3 flex flex-row items-center w-[149px] h-[20px]">
