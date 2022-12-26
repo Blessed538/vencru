@@ -28,7 +28,7 @@ const MobileSidebar = () => {
               className="flex flex-row items-center my-2 py-[8px] px-[8px] bg-[#FFFFFF] rounded-md w-[247px] h-[40px] "
               key={index}
             >
-              <Image height={24} width={24} alt="icon" src={item.icon} />
+              <Image height={24} width={24} alt={item.alt} src={item.icon} />
               <div className="pl-4 text-[16px] font-[500] not-italic leading-[24px] text-[#344054]">
                 {item.title}
               </div>
