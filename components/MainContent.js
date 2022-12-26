@@ -24,7 +24,7 @@ const MainContent = () => {
       {/* mobile view */}
       <div className="bg-[#FFFFFF] sm:flex px-[16px] items-center mb-3 py-[12px] md:hidden flex flex-row justify-between">
         <div>
-          <Image src="/../public/Logo.png" width={143} height={32} />
+          <Image src="/../public/Logo.png" alt="logo" width={143} height={32} />
         </div>
         <div className="" onClick={() => openSidebar()}>
           <Image src="/../public/nav.png" width={40} height={40} alt="nav" />
