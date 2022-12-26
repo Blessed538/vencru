@@ -58,7 +58,7 @@ const MobileSidebar = () => {
               height={136}
               width={215}
               alt="image-wrap"
-              src="/image-wrap.png"
+              src="/imagewrap.png"
             />
           </div>
         </div>

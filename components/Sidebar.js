@@ -64,7 +64,7 @@ const Sidebar = () => {
             <Image
               height={136}
               width={215}
-              src="/image-wrap.png"
+              src="/imagewrap.png"
               alt="image-wrap"
             />
           </div>
