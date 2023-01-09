@@ -9,6 +9,9 @@ module.exports = {
       width: {
         128: "279px",
       },
+      fontFamily: {
+        sans: [" Inter"],
+      },
       // screens: {
       //   sm: "320px",
       //   // => @media (min-width: 640px) { ... }

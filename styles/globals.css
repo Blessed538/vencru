@@ -9,7 +9,7 @@
     width: 300px;
     text-align: left;
     position: absolute;
-    top: 0;
+    top: -15px;
     left: 0;
     transition: transform 0.3s ease-in-out;
 }
